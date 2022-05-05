@@ -1,0 +1,19 @@
+.footer {
+  position: absolute;
+  width: 375px;
+  height: 76px;
+  left: 0px;
+  top: 736px;
+  text-align: center;
+  background: linear-gradient(163.63deg, #00BDB2 11.35%, #C4E7B8 139.96%);
+}
+
+.footer > a {
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 60px;
+}
+
+.footer > a:last-child {
+  margin-right: 0px;
+}

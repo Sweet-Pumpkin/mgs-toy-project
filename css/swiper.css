@@ -1,0 +1,272 @@
+.swiper {
+  width: 375px;
+  height: 690px;
+  position: absolute;
+  left: 0px;
+  top: 44px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #eeece5;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide .title {
+  display: flex;
+  position: absolute;
+  width: 327px;
+  height: 43px;
+  left: 27px;
+  top: 0px;
+}
+
+.swiper-slide .title .avata {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 0px;
+  top: 0px;
+}
+
+.swiper-slide .title h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.24px;
+}
+
+.swiper-slide .title .search {
+  position: absolute;
+  width: 66px;
+  height: 24px;
+  left: 261px;
+  top: 9.5px;
+}
+
+.swiper-slide .box {
+  position: absolute;
+  width: 279px;
+  height: 155px;
+  left: 48px;
+  top: 76px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.swiper-slide .box .number {
+  font-size: 14px;
+  color: #858585;
+  position: absolute; 
+  left: 26.16%; 
+  right: 25.26%;
+  top: 9.03%;
+  bottom: 77.42%;
+  line-height: 21px;
+  letter-spacing: -0.24px;
+}
+
+.swiper-slide .box .money {
+  position: absolute;
+  left: 21.22%;
+  right: 21.22%;
+  top: 32.9%;
+  bottom: 43.87%;
+
+}
+
+.swiper-slide .box .money > span {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 2px;
+}
+
+.swiper-slide .box .money > u {
+  font-size: 16px;
+}
+
+.swiper-slide .box > input {
+  position: absolute;
+  width: 202px; 
+  height: 17px;
+  left: 32px;
+  top: 103px;
+}
+
+input[type=range] {
+  width: 100%;
+  -webkit-appearance: none;
+}
+/*webkit (Chrome)의 경우*/
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  background: #d1d1d1;
+  border-radius: 10px;
+}
+input[type=range]::-webkit-slider-thumb {
+  border-radius: 10px;
+  height: 20px;
+  width: 5px;
+  background: #ff8000;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px; /*chrome의 경우 margin-top값을 부여해야합니다.*/
+}
+
+.swiper-slide .box > span {
+  position: absolute;
+  left: 22.04%;
+  right: 21.22%;
+  top: 82.58%;
+  bottom: 3.87%;
+  font-size: 14px;
+  line-height: 21px;
+  color: #858585;
+}
+
+.swiper-slide .box .send {
+  color: #000;
+  position: absolute;
+  width: 26px;
+  height: 21px;
+  left: 236px;
+  top: 14px;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.24px;
+}
+
+.swiper-slide .box .graph {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 241px;
+  top: 98px;
+}
+
+.swiper-slide .ad {
+  position: absolute;
+  font-size: 14px;
+  display: flex;
+  top: 255px;
+}
+
+.swiper-slide .ad > a {
+  margin-left: 5px;
+  color: #000;
+  text-decoration: underline;
+}
+
+.swiper-slide .scroll {
+  position: absolute;
+  left: 0px;
+  top: 297px;
+  width: 375px;
+  height: 2000px;
+  background-color: #f5f5f5;
+  border-radius: 30px 30px 0 0;
+  overflow-y: scroll;
+}
+
+.swiper-slide .scroll .piggyBank {
+  position: absolute;
+  display: flex;
+  width: 308px;
+  height: 49px;
+  left: 30px;
+  top: 23px;
+  overflow-x: scroll;
+}
+
+.swiper-slide .scroll .piggyBank > li {
+  position: absolute;
+  width: 162px;
+  height: 47px;
+  background: #DADADA;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.swiper-slide .scroll .piggyBank > li:first-child {
+  left: 0px;
+  top: 0px;
+}
+
+.swiper-slide .scroll .piggyBank > li:nth-child(2) {
+  left: 175px;
+  top: 0px;
+}
+
+.swiper-slide .scroll .piggyBank > li:last-child {
+  top: 0px;
+  left: 350px;
+  margin-right: 0px;
+  background-color: transparent;
+}
+
+.swiper-slide .scroll .piggyBank > li > p {
+  position: absolute;
+  height: 100%;
+  font-size: 12px;
+  text-align: left;
+  padding: 8px 0px 0px 14px;
+  color: #fff;
+}
+
+.swiper-slide .scroll .piggyBank > li > .no1 {
+  background-color: tomato;
+  border-radius: 10px 0 0 10px;
+  padding-right: 30px;
+}
+
+.swiper-slide .scroll .piggyBank > li > .no2 {
+  background-color: #009954;
+  border-radius: 10px 0 0 10px;
+  padding-right: 50px;
+}
+
+.swiper-slide .scroll .piggyBank > li > a {
+  color: tomato;
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 25px;
+}
+
+.swiper-slide .scroll .piggyBank > li > a > img {
+  width: 25px;
+  height: 25px;
+  color: tomato;
+}
+
+.swiper-slide .scroll .piggyBank > li > a > strong {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.8;
+}

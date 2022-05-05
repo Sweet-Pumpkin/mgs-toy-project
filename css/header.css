@@ -1,0 +1,20 @@
+.container > header {
+  position: absolute;
+  top: 0;
+  bottom: 94.58%;
+  right: 0;
+  left: 0;
+}
+.container > header > * {
+  margin: 17.33px 15.33px 0 15.33px;
+}
+.container > header > .float-left {
+  float: left;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 15px;
+  line-height: 0.8;
+}
+.container > header > .float-right {
+  float: right; 
+}
