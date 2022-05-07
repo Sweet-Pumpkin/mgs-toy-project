@@ -7,6 +7,7 @@
   z-index: 1;
   transform: translateY(736px);
   transition: .5s;
+  overflow-y: scroll;
 }
 
 .container > .chart > header {
@@ -73,4 +74,32 @@
   height: 28px;
   left: 29px;
   top: 200px;
+}
+
+.container > .chart > #list1 {
+  position: absolute;
+  top: 250px;
+}
+
+.container > .chart > .chart1 {
+  position: absolute; 
+  width: 372px;
+  height: 340px;
+  top: 300px;
+  overflow-x: scroll;
+}
+
+.container > .chart > .chart1 > .chartSize {
+  width: 600px;
+}
+
+.container > .chart > #list2 {
+  position: absolute;
+  top: 630px;
+}
+
+.container > .chart > .chart2 {
+  position: absolute; 
+  width: 372px;
+  top: 680px;
 }
