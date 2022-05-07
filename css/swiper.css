@@ -191,6 +191,13 @@ input[type=range]::-webkit-slider-thumb {
   height: 2000px;
   background-color: #f5f5f5;
   border-radius: 30px 30px 0 0;
+  transition: .5s;
+}
+
+.swiper-slide .scroll  #Arrow {
+  position: absolute;
+  color: #858585;
+  cursor: pointer;
 }
 
 .swiper-slide .scroll .piggyBank {
@@ -247,7 +254,7 @@ input[type=range]::-webkit-slider-thumb {
 .swiper-slide .scroll .piggyBank > li > .no2 {
   background-color: #009954;
   border-radius: 10px 0 0 10px;
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
 .swiper-slide .scroll .piggyBank > li > a {
@@ -274,8 +281,9 @@ input[type=range]::-webkit-slider-thumb {
   overflow-y: auto;
   position: absolute;
   width: 375px;
-  height: 381px;
+  height: 305px;
   left: 0px;
   top: 89px;
-  border: 1px solid red;
+  overflow-y: scroll;
+  transition: .5s;
 }

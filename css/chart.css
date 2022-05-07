@@ -1,0 +1,76 @@
+.chart {
+  position: absolute;
+  width: 375px;
+  min-height: 736px;
+  height: auto;
+  background-color: #fff;
+  z-index: 1;
+  transform: translateY(736px);
+  transition: .5s;
+}
+
+.container > .chart > header {
+  position: absolute;
+  top: 0;
+  bottom: 94.58%;
+  right: 0;
+  left: 0;
+}
+.container > .chart > header > * {
+  margin: 17.33px 15.33px 0 15.33px;
+}
+.container > .chart > header > .float-left {
+  float: left;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 15px;
+  line-height: 0.8;
+}
+.container > .chart > header > .float-right {
+  float: right; 
+}
+
+.container > .chart > .close {
+  position: absolute;
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+  left: 336px;
+  top: 44px;
+}
+
+.container > .chart > h1 {
+  font-size: 24px;
+  position: absolute;
+  width: 94px;
+  height: 36px;
+  left: 30px;
+  top: 77px;
+}
+
+.container > .chart > .setMoneyBox {
+  width: 375px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  padding: 30px;
+  top: 120px;
+}
+
+.container > .chart > .setMoneyBox > p {
+  font-size: 18px;
+}
+
+.container > .chart > .setMoneyBox > .MoneyBox {
+  font-size: 24px;
+  line-height: .8;
+  color: #FF5F00;;
+}
+
+.container > .chart > input {
+  position: absolute;
+  width: 308px;
+  height: 28px;
+  left: 29px;
+  top: 200px;
+}

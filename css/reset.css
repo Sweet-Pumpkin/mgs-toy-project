@@ -15,6 +15,5 @@ h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquo
 }
 li {list-style:none;}
 img {vertical-align: top;}
-a {text-decoration: none;}
-* {box-sizing: border-box; font-weight: 500; touch-action: auto;}
-*::-webkit-scrollbar {display: none; /* Chrome, Safari, Opera*/}
+* {box-sizing: border-box; font-weight: 500; touch-action: auto; text-decoration: none; letter-spacing: -0.24px;}
+*::-webkit-scrollbar {display: none;} 
