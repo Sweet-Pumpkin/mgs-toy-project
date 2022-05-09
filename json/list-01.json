@@ -1,212 +1,170 @@
 [
   {
-    "date": "2022.5.1",
+    "date": "2022.05.01",
     "inOut": "in",
-    "type": "mart",
+    "type": "profit",
     "item": "용돈",
-    "price": 20000
+    "price": 300000
   },
   {
-    "date": "2022.5.1",
+    "date": "2022.05.01",
     "inOut": "out",
     "type": "health",
-    "item": "샐러드",
-    "price": 10000
+    "item": "비타민",
+    "price": 30000
   },
   {
-    "date": "2022.5.1",
+    "date": "2022.05.01",
     "inOut": "out",
     "type": "eatout",
-    "item": "맛있어돈까스",
+    "item": "탄탄면공방(강남점)",
     "price": 8000
   },
   {
-    "date": "2022.5.1",
-    "inOut": "out",
-    "type": "mart",
-    "item": "이마트",
-    "price": 36000
-  },
-  {
-    "date": "2022.5.1",
+    "date": "2022.05.01",
     "inOut": "out",
     "type": "eatout",
-    "item": "놀부보쌈",
-    "price": 1200
+    "item": "투썸강남대륭타워",
+    "price": 22100
   },
   {
-    "date": "2022.5.2",
-    "inOut": "in",
-    "type": "mart",
+    "date": "2022.05.01",
+    "inOut": "out",
+    "type": "eatout",
+    "item": "BHC압구정역점",
+    "price": 32000
+  },
+  {
+    "date": "2022.05.02",
+    "inOut": "out",
+    "type": "eatout",
     "item": "김밥천국",
     "price": 10000
   },
   {
-    "date": "2022.5.2",
+    "date": "2022.05.02",
     "inOut": "out",
-    "type": "mart",
-    "item": "쌈밥",
+    "type": "eatout",
+    "item": "씨유화곡미라클점",
     "price": 20000
   },
   {
-    "date": "2022.5.2",
-    "inOut": "out",
-    "type": "mart",
-    "item": "콜라",
-    "price": 1000
+    "date": "2022.05.02",
+    "inOut": "in",
+    "type": "profit",
+    "item": "붱철",
+    "price": 25000
   },
   {
-    "date": "2022.5.2",
+    "date": "2022.05.02",
     "inOut": "out",
-    "type": "eatout",
+    "type": "taxi",
     "item": "택시",
-    "price": 30000
+    "price": 8900
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.02",
     "inOut": "out",
     "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "item": "계림원누릉지통닭",
+    "price": 44000
   },
   {
-    "date": "2022.5.3",
-    "inOut": "out",
-    "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "date": "2022.05.02",
+    "inOut": "in",
+    "type": "profit",
+    "item": "펭수",
+    "price": 22000
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.02",
     "inOut": "out",
     "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "item": "씨유화곡미라클점",
+    "price": 12000
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.03",
     "inOut": "out",
     "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "item": "대성마트",
+    "price": 10000
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.03",
     "inOut": "out",
     "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "item": "이마트도산대로점",
+    "price": 6000
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.03",
     "inOut": "out",
-    "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "type": "edu",
+    "item": "교보문고",
+    "price": 23000
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.04",
     "inOut": "out",
     "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "item": "씨유화곡미라클점",
+    "price": 5500
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.04",
     "inOut": "out",
     "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "item": "스타벅스신사역점",
+    "price": 18000
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.04",
     "inOut": "out",
     "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "item": "맥도날드신사역점",
+    "price": 10500
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.04",
     "inOut": "out",
     "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "item": "대성마트",
+    "price": 23000
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.05",
     "inOut": "out",
     "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "item": "씨유화곡미라클점",
+    "price": 3000
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.06",
     "inOut": "out",
     "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "item": "투썸강남대륭타워",
+    "price": 4000
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.06",
     "inOut": "out",
     "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "item": "탄탄면공방(강남점)",
+    "price": 8000
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.06",
     "inOut": "out",
-    "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "type": "daily",
+    "item": "다이소",
+    "price": 12000
   },
   {
-    "date": "2022.5.3",
+    "date": "2022.05.06",
     "inOut": "out",
     "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
-  },
-  {
-    "date": "2022.5.3",
-    "inOut": "out",
-    "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
-  },
-  {
-    "date": "2022.5.3",
-    "inOut": "out",
-    "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
-  },
-  {
-    "date": "2022.5.3",
-    "inOut": "out",
-    "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
-  },
-  {
-    "date": "2022.5.3",
-    "inOut": "out",
-    "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
-  },
-  {
-    "date": "2022.5.3",
-    "inOut": "out",
-    "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
-  },
-  {
-    "date": "2022.5.3",
-    "inOut": "out",
-    "type": "eatout",
-    "item": "짜장면",
-    "price": 29900
+    "item": "씨유화곡미라클점",
+    "price": 5000
   }
 ]

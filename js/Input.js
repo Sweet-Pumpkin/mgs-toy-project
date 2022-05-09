@@ -9,5 +9,5 @@ function setInputEl(event) {
 }
 
 if (inputEl) {
-  inputEl.addEventListener("input", setInputEl)
+  inputEl.addEventListener("input", setInputEl);
 }

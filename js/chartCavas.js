@@ -31,17 +31,21 @@ const myChart2 = new Chart(chart2, {
     type: 'doughnut',
     data: {
       labels: [
-        'Red',
-        'Blue',
-        'Yellow'
+        '식비',
+        '외식비',
+        '주거비',
+        '건강관리비',
+        '교통비'
       ],
       datasets: [{
         label: 'My First Dataset',
-        data: [300, 50, 100],
+        data: [300, 50, 100, 150, 30],
         backgroundColor: [
           'rgb(255, 99, 132)',
           'rgb(54, 162, 235)',
-          'rgb(255, 205, 86)'
+          'rgb(255, 205, 86)',
+          '#b6e3e9',
+          '#cb9ffd'
         ],
         hoverOffset: 4
       }]
