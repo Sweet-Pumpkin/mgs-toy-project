@@ -9,7 +9,7 @@ fetch("./json/list-01.json")
 function List(obj) {
   
   function forList(D1, D2) {
-    const ulEl = document.querySelector('.receipt');
+    const ulEl = document.querySelector('#receipt');
     const dataWrap = document.createElement('div');
     const dateName = document.createElement('span');
     dateName.className = "dateName";
