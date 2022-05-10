@@ -1,6 +1,7 @@
 const Arrows = document.querySelectorAll('#Arrow');
 const Scrolls = document.querySelectorAll('.scroll');
-const Receipts = document.querySelectorAll('.receipt')
+const Receipt = document.querySelector('#receipt');
+const subReceipts = document.querySelectorAll('#subReceipt');
 
 let up = false;
 
@@ -13,8 +14,9 @@ function setUp() {
     Scrolls.forEach(Scroll => {
       Scroll.style.top = "50px";
     });
-    Receipts.forEach(Receipt => {
-      Receipt.style.height = "552px"
+    Receipt.style.height = "552px";
+    subReceipts.forEach(subReceipt => {
+      subReceipt.style.height = "552px"
     });
   } else {
     Arrows.forEach(Arrow => {
@@ -23,8 +25,9 @@ function setUp() {
     Scrolls.forEach(Scroll => {
       Scroll.style.top = "297px";
     });
-    Receipts.forEach(Receipt => {
-      Receipt.style.height = "305px"
+    Receipt.style.height = "305px";
+    subReceipts.forEach(subReceipt => {
+      subReceipt.style.height = "305px"
     });
   }
 }
