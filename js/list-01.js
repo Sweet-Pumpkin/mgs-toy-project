@@ -68,7 +68,8 @@ fetch("./json/list-01.json")
             liPrice.classList.add('in');
             liPrice.textContent = `${changePrice}원`; 
           }
-          ulEl.appendChild(listWrap)
+
+          ulEl.appendChild(listWrap);
           listWrap.appendChild(liItem);
           listWrap.appendChild(liPrice);
         }
