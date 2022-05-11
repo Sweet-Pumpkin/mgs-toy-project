@@ -3,12 +3,12 @@ fetch("./json/list-02.json")
   return res.json()
 })
 .then((obj) => {
-  List2(obj);
+  List2(obj, "2022.05.06", "오늘");
+  List2(obj, "2022.05.05", "어제");
+  List2(obj, "2022.05.04", "2일 전");
 })
-
-function List2(obj) {
   
-  function forList(D1, D2) {
+  function List2(obj, D1, D2) {
     const ulEls = document.querySelectorAll('#subReceipt');
     ulEls.forEach(ulEl => {
       
@@ -62,9 +62,6 @@ function List2(obj) {
       }
     });
   }
-  forList("2022.05.06", "오늘");
-  forList("2022.05.05", "어제");
-  forList("2022.05.04", "2일 전");
-}
+
 
   

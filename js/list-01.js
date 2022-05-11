@@ -3,12 +3,17 @@ fetch("./json/list-01.json")
   return res.json()
 })
 .then((obj) => {
-  List(obj);
+  List(obj, "2022.05.06", "오늘");
+  List(obj, "2022.05.05", "어제");
+  List(obj, "2022.05.04", "2일 전");
+  List(obj, "2022.05.03", "3일 전");
+  List(obj, "2022.05.02", "5월 2일");
+  List(obj, "2022.05.01", "5월 1일");
 })
 
-function List(obj) {
+
   
-  function forList(D1, D2) {
+  function List(obj, D1, D2) {
     const ulEl = document.querySelector('#receipt');
     const dataWrap = document.createElement('div');
     const dateName = document.createElement('span');
@@ -59,12 +64,5 @@ function List(obj) {
       }
     }
   }
-  forList("2022.05.06", "오늘");
-  forList("2022.05.05", "어제");
-  forList("2022.05.04", "2일 전");
-  forList("2022.05.03", "3일 전");
-  forList("2022.05.02", "5월 2일");
-  forList("2022.05.01", "5월 1일");
-}
 
   
