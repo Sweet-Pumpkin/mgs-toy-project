@@ -161,10 +161,31 @@
     "price": 12000
   },
   {
-    "date": "2022.05.06",
+    "date": "2022.05.07",
+    "inOut": "out",
+    "type": "eatout",
+    "item": "비트박스(강남점)",
+    "price": 15000
+  },
+  {
+    "date": "2022.05.07",
     "inOut": "out",
     "type": "eatout",
     "item": "씨유화곡미라클점",
-    "price": 5000
+    "price": 3000
+  },
+  {
+    "date": "2022.05.08",
+    "inOut": "out",
+    "type": "eatout",
+    "item": "하늘섬플레이스(강남점)",
+    "price": 8000
+  },
+  {
+    "date": "2022.05.08",
+    "inOut": "out",
+    "type": "eatout",
+    "item": "매드클라운포갈릭(강남점)",
+    "price": 230000
   }
 ]

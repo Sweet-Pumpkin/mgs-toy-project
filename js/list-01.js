@@ -27,7 +27,7 @@ fetch("./json/list-01.json")
       // 날짜 표시
       dateName.className = "dateName";
       dateName.textContent = D;
-  
+
       // 지출 합산
       const plusPrice = document.createElement('span');
       plusPrice.className ="plusPrice";
