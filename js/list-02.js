@@ -15,9 +15,9 @@ fetch("./json/list-02.json")
     const arrUni = arrZero.filter((val, idx) => {
       return arrZero.indexOf(val) === idx;
     })
-    const arrSorts = arrUni.reverse();
+    const arrReverse = arrUni.reverse();
     for (let i = 0; i < arrSorts.length; i++) {
-      const D = arrSorts[i]; // 날짜 추출
+      const D = arrReverse[i]; // 날짜 추출
 
       // 지출 합산 & 날짜 표시 추출
       const ulEls = document.querySelectorAll('#subReceipt');
