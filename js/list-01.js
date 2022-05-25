@@ -16,7 +16,7 @@ fetch("./json/list-01.json")
       return arrZero.indexOf(val) === idx;
     })
     const arrReverse = arrUni.reverse();
-    for (let i = 0; i < arrSorts.length; i++) {
+    for (let i = 0; i < arrReverse.length; i++) {
       const D = arrReverse[i]; // 날짜 추출
 
       // 지출 합산 & 날짜 표시 추출
