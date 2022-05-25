@@ -1,6 +1,5 @@
 # FastCampus Megabyte School JS Toy Project
-  바닐라 자바스크립트를 활용한 은행어플제작
-
+  <span>바닐라 자바스크립트를 활용한 은행어플제작</span>
   <a href="https://gilded-hotteok-27194b.netlify.app/">
     <img src="https://img.shields.io/badge/LINK-00C7B7?style=flat-square&logo=Netlify&logoColor=FFFFFF"/>
   </a>
@@ -23,6 +22,6 @@
   `addEventListener()`와 `forEach()`를 사용해서 화살표 토글을 클릭했을 경우 결제 내역이 상단으로 나올 수 있도록 설정했습니다.<br />
   `forEach()`를 사용한 것은 다른 통장 내역에서도 토글 기능이 활성화 되기 위함입니다.<br />
 ## 4. Chartjs로 차트 페이지 만들기 & input 활용한 기준금액설정 기능 추가<br />
-  ![](./img/04/toypro-05.gif)
+  ![](./img/04/toypro-05.gif)<br />
   chart.js로 임의의 데이터로 차트를 설정했습니다.<br />
   input의 thumb을 동작 시키면 그에 따라 input의 value 값이 변동되는 기능 또한 추가했습니다. <br />
